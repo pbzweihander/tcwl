@@ -1,0 +1,17 @@
+[package]
+name = "tcwl"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+async-recursion = "0.3.2"
+color-eyre = "0.5.11"
+ctrlc = { version = "3.2.0", features = ["termination"] }
+linemux = "0.2.3"
+pin-project-lite = "0.2.7"
+rusoto_core = { version = "0.47.0", features = ["rustls"], default-features = false }
+rusoto_logs = { version = "0.47.0", features = ["rustls"], default-features = false }
+stopper = "0.2.0"
+structopt = "0.3.22"
+tokio = { version = "1.10.1", features = ["rt", "rt-multi-thread", "macros", "io-std"] }
+waitgroup = "0.1.2"

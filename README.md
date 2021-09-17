@@ -20,8 +20,8 @@ $ some_application \
     --log-stream <log-stream> \
     - \
     logs/some_log_file
+```
 
 ## [License](LICENSE)
 
 `tcwl` is lisenced under the terms of [MIT license](https://spdx.org/licenses/MIT.html)
-```
